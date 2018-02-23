@@ -4,6 +4,7 @@
 .orange 		{ background: #f39c12; color: #ecf0f1 !important; }
 .emerald 		{ background: #2ecc71; color: #ecf0f1 !important; }
 .nephritis 		{ background: #27ae60; color: #ecf0f1 !important; }
+.olive 	    	{ background: #556B2F; color: #ecf0f1 !important; }
 .carrot 		{ background: #e67e22; color: #ecf0f1 !important; }
 .pumpkin 		{ background: #d35400; color: #ecf0f1 !important; }
 .pete-river 	{ background: #3498db; color: #ecf0f1 !important; }
@@ -25,6 +26,7 @@
 .orange-text 		{ color: #f39c12 ; }
 .emerald-text 		{ color: #2ecc71; }
 .nephritis-text 	{ color: #27ae60; }
+.olive-text     	{ color: #556B2F; }
 .carrot-text 		{ color: #e67e22; }
 .pumpkin-text 		{ color: #d35400; }
 .pete-river-text 	{ color: #3498db; }

@@ -3,7 +3,7 @@ ul {
 }
 
 #sidebar {
-    width: 36%;
+    width: 26%;
     position: fixed;
     height: 100%;
 }
@@ -28,7 +28,7 @@ ul {
 
 #map {
     height: 400px;
-    width: 64%;
+    width: 74%;
     float: right;
 }
 #map img {

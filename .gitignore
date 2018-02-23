@@ -4,4 +4,5 @@
 .local
 *.DS_Store
 /useful_files
+/node_modules
 
