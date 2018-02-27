@@ -17,7 +17,7 @@ This application allows you to view pictures based on a geolocation and also cha
 
 For now, it shows pictures from a datebase I created and put markers on new points on a map.
 
-Soon, I will add a functionality that will show pictures from an outsource datebase on markers you will create as well as the address of the marker you created based on Google Maps API
+:soon: I will add a functionality that will show pictures from an outsource datebase on markers you will create as well as the address of the marker you created based on Google Maps API
 
 ## Comments
 
