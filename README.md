@@ -1,4 +1,4 @@
-## Pics on a Map
+# Pics on a Map
 
 This application allows you to view pictures based on a geolocation and also change Google Maps styles in a side bar options.
 
