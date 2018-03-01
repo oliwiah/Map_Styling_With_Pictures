@@ -28,7 +28,8 @@ let markersArray = [
     {
         coords: {lat: 40.650002, lng: -73.949997},
         content: '<h1>Wiliamsburg, NYC</h1>',
-        image: '<iframe src="//lightwidget.com/widgets/d2d273f5a8c95db3be5eecbefa622daa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; height: 340px; border: 0;"></iframe>'
+        image: '<img src="https://scontent-waw1-1.cdninstagram.com/vp/21984819_1911271045859223_346769839798353920_n.jpg" />'
+        // image: '<iframe src="//lightwidget.com/widgets/d2d273f5a8c95db3be5eecbefa622daa.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; height: 340px; border: 0;"></iframe>'
     },
     {
         coords: {lat: 36.016066, lng: -114.737732},
