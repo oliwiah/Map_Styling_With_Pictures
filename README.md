@@ -15,7 +15,7 @@ This application allows you to view pictures based on a geolocation and also cha
 
 ## Demo
 
-![Demo PicOnAMap1 alpha](https://j.gifs.com/2vXEMz.gif)
+![Demo PicOnAMap1 alpha](https://j.gifs.com/nrlP3W.gif)
 ![Demo PicOnAMap1 alpha](https://j.gifs.com/1rMDZm.gif)
 
 In case you cannot view demos, [check here](gif.gif)
