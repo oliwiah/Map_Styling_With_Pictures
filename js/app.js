@@ -1,11 +1,10 @@
-// In case you want to acually use DOMContentLoaded event uncoment this:
-// $(document).ready(function() {
-//     //     // INSTAGRAM API
-//     //     // https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=1352781376.1605047.18ff2a951adc4b5e809a8155b484ec88
-// });
+// In case IG changed its Privacy Police
+    // INSTAGRAM API
+    // https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=1352781376.1605047.18ff2a951adc4b5e809a8155b484ec88
+
 
 //*************************************************************//
-//********** >>> This is where magic happens ;p  <<< **********//
+//******************* >>> The App Code <<< ********************//
 //*************************************************************//
 
 // Array of markers

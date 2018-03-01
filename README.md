@@ -13,6 +13,10 @@ This application allows you to view pictures based on a geolocation and also cha
 * Flat UI
 * Google Maps API
 
+## Demo
+
+![Demo TeslaCalc alpha](readme_gifs/gif_small.gif)
+
 ## Functionality
 
 For now, it shows pictures from a datebase I created and put markers on new points on a map.
