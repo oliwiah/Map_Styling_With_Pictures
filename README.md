@@ -15,7 +15,7 @@ This application allows you to view pictures based on a geolocation and also cha
 
 ## Demo
 
-![Demo TeslaCalc alpha](readme_gifs/gif_small.gif)
+![Demo PicOnAMap alpha](gif_small.gif)
 
 ## Functionality
 
