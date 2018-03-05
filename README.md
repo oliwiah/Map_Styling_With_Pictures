@@ -1,6 +1,6 @@
 # Map Styling with Pictures
 
-This application allows you to view pictures based on a geolocation and also change Google Maps styles in a side bar options.
+This application allows you to view pictures based on a geolocation and also change Google Maps styles in a side bar options using Flat UI.
 
 ## Technologies used
 
