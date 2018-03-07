@@ -77,6 +77,7 @@ let markersArray = [
     }
 ];
 
+
 // Initializing map function:
 function initMap(){  // Map with options
 
@@ -87,7 +88,7 @@ function initMap(){  // Map with options
         zoom: 8,
         center: new google.maps.LatLng(40.730610, -73.935242),
         mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
+    };
     // create new map object
     let map = new google.maps.Map(mapElement, mapConfig);
 
@@ -112,13 +113,12 @@ function initMap(){  // Map with options
             coords:{lat:event.latLng.lat(),lng:event.latLng.lng()},
             content:'<h1>Custom location in progress...</h1>',
             image: '<p>Willing to put some pic of the location here</p>'
-        }
+        };
 
         addMarker(map,pointProperties);
     });
 
 }
-
 
 
 // Render predefined points function
@@ -130,10 +130,15 @@ function renderPredefinedMarkers(givenMap, markers){
     }
 }
 
+// Create labels with a single alphabetical character for markers
+let labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let labelIndex = 0;
+
 // Add Marker Function
 function addMarker(givenMap,props){
     let marker = new google.maps.Marker({
         position:props.coords,
+        label: labels[labelIndex++ % labels.length],
         map:givenMap,
         //icon:props.iconImage
     });
