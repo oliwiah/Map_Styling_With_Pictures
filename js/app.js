@@ -18,7 +18,7 @@ let markersArray = [
         coords:{lat:39.000668,lng:-74.799332},
         content:`<h1>Morey's Piers, Wildwood, NJ</h1>`,
         image: '<img width="350px" height="540px" src="https://scontent-waw1-1.cdninstagram.com/vp/21690029_504227456590441_546644110082048000_n.jpg" />',
-        iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        // iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
     },
     {
         coords:{lat:40.759384,lng:-73.981809},
