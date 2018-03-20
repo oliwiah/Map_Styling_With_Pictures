@@ -106,7 +106,7 @@ function initMap(){  // Map with options
     });
 
 
-    // Listen for click on map
+    // Listen for click on a map
     google.maps.event.addListener(map, 'click', function(event){
         // Add marker
         const pointProperties = {
@@ -125,7 +125,7 @@ function initMap(){  // Map with options
 function renderPredefinedMarkers(givenMap, markers){
     // Loop through markers
     for(let i = 0;i < markers.length;i++){
-        // Add marker
+        // Add a marker
         addMarker(givenMap,markers[i]);
     }
 }

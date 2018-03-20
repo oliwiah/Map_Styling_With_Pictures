@@ -7,7 +7,8 @@
         // Build main options before element iteration.
         $.fn.colorDrop.defaults = {
             colors: {
-                'Turquoise': '#1abc9c'
+                'Default': null
+                ,'Turquoise': '#1abc9c'
                 ,'Green Sea': '#16a085'
                 ,'Emerald' : '#2ecc71'
                 ,'Nephritis' : '#27ae60'
