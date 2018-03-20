@@ -105,6 +105,12 @@ function initMap(){  // Map with options
         }
     });
 
+    // default styles button
+    $("#default-styles-btn").click(function() {
+        defaultMapStyles( map );
+    });
+
+
 
     // Listen for click on a map
     google.maps.event.addListener(map, 'click', function(event){
@@ -215,6 +221,58 @@ function changeMapStyles( givenMap ) {
 
     givenMap.setOptions({
         styles: featureOpts
+    });
+
+};
+
+// Default function
+function defaultMapStyles( givenMap ) {
+
+    let defaultOpts = [
+        {
+            stylers: [
+                { hue: null }
+            ]
+        },{
+            elementType: "labels",
+            stylers: [{
+                visibility: "on"
+            }]
+        },{
+            featureType: "road",
+            stylers: [{
+                visibility: "on"
+            }, {
+                color: null
+            }]
+        },{
+            featureType: "water",
+            stylers: [{
+                visibility: "on"
+            }, {
+                color: null
+            }]
+        },
+        {
+            featureType: "poi"
+            ,stylers: [{
+                visibility: "on"
+            }, {
+                color: null
+            }]
+        },
+        {
+            featureType: "landscape",
+            stylers: [{
+                visibility: "on"
+            }, {
+                color: null
+            }]
+        }
+    ];
+
+    givenMap.setOptions({
+        styles: defaultOpts
     });
 
 };
