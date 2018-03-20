@@ -111,7 +111,6 @@ function initMap(){  // Map with options
     });
 
 
-
     // Listen for click on a map
     google.maps.event.addListener(map, 'click', function(event){
         // Add marker

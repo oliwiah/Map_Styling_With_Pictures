@@ -16,7 +16,7 @@ ul {
     font-size: 36px;
 }
 
-#sidebar > .sidebar-options {
+#sidebar > .sidebar-options, #default-styles-btn {
     margin-top: 25px;
 }
 
@@ -31,6 +31,7 @@ ul {
     width: 74%;
     float: right;
 }
+
 #map img {
     max-width: none;
 }
